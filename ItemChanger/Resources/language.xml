@@ -95,4 +95,12 @@
   <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_SHADOWDASH">Cloak formed from the substance of the Abyss. Allows the wearer to dash through enemies and their attacks without taking damage.</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_LEFT_SHADOWDASH">Left Shade Cloak</entry>
   <entry sheet="UI" key="ITEMCHANGER_SHOP_NAME_RIGHT_SHADOWDASH">Right Shade Cloak</entry>
+
+  <!--Triple Jump-->
+  <entry sheet="UI" key="ITEMCHANGER_NAME_TRIPLEJUMP">Super Wings</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_TRIPLE_JUMP">Enables the bearer to jump again and again after jumping.</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_TRIPLEJUMP_1">Press JUMP to jump again while in the air.</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_TRIPLEJUMP_2">Then press JUMP again to jump yet again.</entry>
+
+
 </Language>

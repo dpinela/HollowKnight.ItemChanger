@@ -410,7 +410,7 @@
       {
         "$type": "ItemChanger.Tags.ItemChainTag, ItemChanger",
         "predecessor": null,
-        "successor": null
+        "successor": "Super_Wings"
       }
     ],
     "obtainState": "Unobtained"
@@ -5699,6 +5699,62 @@
       }
     },
     "tags": null,
+    "obtainState": "Unobtained"
+  },
+  "Super_Wings": {
+    "$type": "ItemChanger.Items.CustomSkillItem, ItemChanger",
+    "boolName": "hasTripleJump",
+    "moduleName": "ItemChanger.Modules.TripleJump, ItemChanger",
+    "name": "Super Wings",
+    "UIDef": {
+      "$type": "ItemChanger.UIDefs.BigUIDef, ItemChanger",
+      "bigSprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "Prompts.SuperWings"
+      },
+      "take": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_ITEM_INTRO1",
+        "sheet": "Prompts"
+      },
+      "press": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "BUTTON_DESC_PRESS",
+        "sheet": "Prompts"
+      },
+      "heroAction": "JUMP",
+      "descOne": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_DESC_TRIPLE_JUMP",
+        "sheet": "Prompts"
+      },
+      "descTwo": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_DESC_TRIPLE_JUMP_2",
+        "sheet": "Prompts"
+      },
+      "name": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_NAME_TRIPLE_JUMP",
+        "sheet": "UI"
+      },
+      "shopDesc": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_SHOP_DESC_TRIPLE_JUMP",
+        "sheet": "UI"
+      },
+      "sprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "ShopIcons.Walljump"
+      }
+    },
+    "tags": [
+      {
+        "$type": "ItemChanger.Tags.ItemChainTag, ItemChanger",
+        "predecessor": "Monarch_Wings",
+        "successor": null
+      }
+    ],
     "obtainState": "Unobtained"
   },
   "Leftslash": {
