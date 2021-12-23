@@ -21,6 +21,8 @@ namespace ItemChanger
         public const string Mantis_Claw = "Mantis_Claw";
         public const string Crystal_Heart = "Crystal_Heart";
         public const string Monarch_Wings = "Monarch_Wings";
+        public const string Monarch_Wings_Upgradable = "Monarch_Wings_Upgradable";
+        public const string Super_Wings = "Super_Wings";
         public const string Shade_Cloak = "Shade_Cloak";
         public const string Ismas_Tear = "Isma's_Tear";
         public const string Dream_Nail = "Dream_Nail";
