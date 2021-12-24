@@ -413,7 +413,7 @@
     "$type": "ItemChanger.Items.BoolItem, ItemChanger",
     "fieldName": "hasDoubleJump",
     "setValue": true,
-    "name": "Monarch_Wings",
+    "name": "Monarch_Wings_Upgradable",
     "UIDef": {
       "$type": "ItemChanger.UIDefs.BigUIDef, ItemChanger",
       "bigSprite": {
@@ -5775,22 +5775,22 @@
       "heroAction": "JUMP",
       "descOne": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
-        "key": "ITEMCHANGER_DESC_TRIPLE_JUMP",
+        "key": "ITEMCHANGER_DESC_TRIPLEJUMP_1",
         "sheet": "Prompts"
       },
       "descTwo": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
-        "key": "ITEMCHANGER_DESC_TRIPLE_JUMP_2",
+        "key": "ITEMCHANGER_DESC_TRIPLEJUMP_2",
         "sheet": "Prompts"
       },
       "name": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
-        "key": "ITEMCHANGER_NAME_TRIPLE_JUMP",
+        "key": "ITEMCHANGER_NAME_TRIPLEJUMP",
         "sheet": "UI"
       },
       "shopDesc": {
         "$type": "ItemChanger.LanguageString, ItemChanger",
-        "key": "ITEMCHANGER_SHOP_DESC_TRIPLE_JUMP",
+        "key": "ITEMCHANGER_SHOP_DESC_TRIPLEJUMP",
         "sheet": "UI"
       },
       "sprite": {
