@@ -101,6 +101,11 @@
   <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_TRIPLEJUMP">Enables the bearer to jump again and again after jumping.</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_TRIPLEJUMP_1">Press JUMP to jump again while in the air.</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_TRIPLEJUMP_2">Then press JUMP again to jump yet again.</entry>
+  <!--Vertical Superdash-->
+  <entry sheet="UI" key="ITEMCHANGER_NAME_VERTICALSUPERDASH">Vertical Crystal Heart</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_VERTICALSUPERDASH">Enables the bearer to launch upwards, sideways or diagonally at dangerous speeds.</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_VERTICALSUPERDASH_1">Press UP while charging to go up. </entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_VERTICALSUPERDASH_2">Press LEFT or RIGHT at the same time to go diagonally.</entry>
 
 
 </Language>

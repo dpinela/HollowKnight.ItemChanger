@@ -18,6 +18,7 @@ namespace ItemChanger
             instance = this;
             Finder.Load();
             LanguageStringManager.Load();
+            HeroRotation.Hook();
         }
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects)

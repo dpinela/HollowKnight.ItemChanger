@@ -20,6 +20,7 @@ namespace ItemChanger
         public const string Mothwing_Cloak = "Mothwing_Cloak";
         public const string Mantis_Claw = "Mantis_Claw";
         public const string Crystal_Heart = "Crystal_Heart";
+        public const string Crystal_Heart_Upgradable = "Crystal_Heart_Upgradable";
         public const string Monarch_Wings = "Monarch_Wings";
         public const string Monarch_Wings_Upgradable = "Monarch_Wings_Upgradable";
         public const string Super_Wings = "Super_Wings";

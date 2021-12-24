@@ -359,6 +359,64 @@
     ],
     "obtainState": "Unobtained"
   },
+  "Crystal_Heart_Upgradable": {
+    "$type": "ItemChanger.Items.MultiBoolItem, ItemChanger",
+    "fieldNames": [
+      "hasSuperDash",
+      "canSuperDash"
+    ],
+    "name": "Crystal_Heart_Upgradable",
+    "UIDef": {
+      "$type": "ItemChanger.UIDefs.BigUIDef, ItemChanger",
+      "bigSprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "Prompts.Superdash"
+      },
+      "take": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_ITEM_INTRO2",
+        "sheet": "Prompts"
+      },
+      "press": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "BUTTON_DESC_HOLD",
+        "sheet": "Prompts"
+      },
+      "heroAction": "SUPER_DASH",
+      "descOne": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_SUPERDASH_1",
+        "sheet": "Prompts"
+      },
+      "descTwo": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_SUPERDASH_2",
+        "sheet": "Prompts"
+      },
+      "name": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "INV_NAME_SUPERDASH",
+        "sheet": "UI"
+      },
+      "shopDesc": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "INV_DESC_SUPERDASH",
+        "sheet": "UI"
+      },
+      "sprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "ShopIcons.Superdash"
+      }
+    },
+    "tags": [
+      {
+        "$type": "ItemChanger.Tags.ItemChainTag, ItemChanger",
+        "predecessor": null,
+        "successor": "Vertical_Crystal_Heart"
+      }
+    ],
+    "obtainState": "Unobtained"
+  },
   "Monarch_Wings": {
     "$type": "ItemChanger.Items.BoolItem, ItemChanger",
     "fieldName": "hasDoubleJump",
@@ -5795,13 +5853,69 @@
       },
       "sprite": {
         "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
-        "key": "ShopIcons.Walljump"
+        "key": "ShopIcons.SuperWings"
       }
     },
     "tags": [
       {
         "$type": "ItemChanger.Tags.ItemChainTag, ItemChanger",
         "predecessor": "Monarch_Wings_Upgradable",
+        "successor": null
+      }
+    ],
+    "obtainState": "Unobtained"
+  },
+  "Vertical_Crystal_Heart": {
+    "$type": "ItemChanger.Items.CustomSkillItem, ItemChanger",
+    "boolName": "hasVerticalSuperdash",
+    "moduleName": "ItemChanger.Modules.VerticalSuperdash, ItemChanger",
+    "name": "Vertical_Crystal_Heart",
+    "UIDef": {
+      "$type": "ItemChanger.UIDefs.BigUIDef, ItemChanger",
+      "bigSprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "Prompts.VerticalSuperdash"
+      },
+      "take": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_ITEM_INTRO2",
+        "sheet": "Prompts"
+      },
+      "press": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "BUTTON_DESC_HOLD",
+        "sheet": "Prompts"
+      },
+      "heroAction": "SUPER_DASH",
+      "descOne": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_DESC_VERTICALSUPERDASH_1",
+        "sheet": "Prompts"
+      },
+      "descTwo": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_DESC_VERTICALSUPERDASH_2",
+        "sheet": "Prompts"
+      },
+      "name": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_NAME_VERTICALSUPERDASH",
+        "sheet": "UI"
+      },
+      "shopDesc": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_SHOP_DESC_VERTICALSUPERDASH",
+        "sheet": "UI"
+      },
+      "sprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "ShopIcons.VerticalSuperdash"
+      }
+    },
+    "tags": [
+      {
+        "$type": "ItemChanger.Tags.ItemChainTag, ItemChanger",
+        "predecessor": "Crystal_Heart_Upgradable",
         "successor": null
       }
     ],

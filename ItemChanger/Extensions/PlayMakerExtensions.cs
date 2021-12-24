@@ -114,6 +114,18 @@
             return fi;
         }
 
+        public static FsmFloat AddFsmFloat(this PlayMakerFSM fsm, string name)
+        {
+            FsmFloat newFsmFloat = new FsmFloat(name);
+
+            FsmFloat[] floatVariables = new FsmFloat[fsm.FsmVariables.FloatVariables.Length + 1];
+            Array.Copy(fsm.FsmVariables.FloatVariables, floatVariables, fsm.FsmVariables.FloatVariables.Length);
+            floatVariables[fsm.FsmVariables.FloatVariables.Length] = newFsmFloat;
+            fsm.FsmVariables.FloatVariables = floatVariables;
+
+            return newFsmFloat;
+        }
+
         public static FsmTransition AddTransition(this FsmState state, FsmEvent fsmEvent, FsmState toState)
         {
             FsmTransition[] transitions = new FsmTransition[state.Transitions.Length + 1];
