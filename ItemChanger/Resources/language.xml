@@ -106,6 +106,10 @@
   <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_VERTICALSUPERDASH">Enables the bearer to launch upwards, sideways or diagonally at dangerous speeds.</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_VERTICALSUPERDASH_1">Press UP while charging to go up. </entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_VERTICALSUPERDASH_2">Press LEFT or RIGHT at the same time to go diagonally.</entry>
-
+  <!--Horizontal Dive-->
+  <entry sheet="UI" key="ITEMCHANGER_NAME_HORIZONTALQUAKE">Sidling Dark</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_HORIZONTALQUAKE">Enables the bearer to launch sideways or downwards with extreme speed and invincibility.</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_HORIZONTALQUAKE_1">Press LEFT or RIGHT while casting to go sideways.</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_HORIZONTALQUAKE_2"></entry>
 
 </Language>

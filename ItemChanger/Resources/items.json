@@ -1025,6 +1025,118 @@
     ],
     "obtainState": "Unobtained"
   },
+  "Desolate_Dive_Upgradable": {
+    "$type": "ItemChanger.Items.SpellItem, ItemChanger",
+    "fieldName": "quakeLevel",
+    "spellLevel": 1,
+    "name": "Desolate_Dive_Upgradable",
+    "UIDef": {
+      "$type": "ItemChanger.UIDefs.BigUIDef, ItemChanger",
+      "bigSprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "Prompts.Quake1"
+      },
+      "take": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_ITEM_INTRO3",
+        "sheet": "Prompts"
+      },
+      "press": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "BUTTON_DESC_TAP",
+        "sheet": "Prompts"
+      },
+      "heroAction": "QUICK_CAST",
+      "descOne": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_QUAKE_1",
+        "sheet": "Prompts"
+      },
+      "descTwo": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_QUAKE_2",
+        "sheet": "Prompts"
+      },
+      "name": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "INV_NAME_SPELL_QUAKE1",
+        "sheet": "UI"
+      },
+      "shopDesc": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "INV_DESC_SPELL_QUAKE1",
+        "sheet": "UI"
+      },
+      "sprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "ShopIcons.Quake1"
+      }
+    },
+    "tags": [
+      {
+        "$type": "ItemChanger.Tags.ItemChainTag, ItemChanger",
+        "predecessor": null,
+        "successor": "Descending_Dark_Upgradable"
+      }
+    ],
+    "obtainState": "Unobtained"
+  },
+  "Descending_Dark_Upgradable": {
+    "$type": "ItemChanger.Items.SpellItem, ItemChanger",
+    "fieldName": "quakeLevel",
+    "spellLevel": 2,
+    "name": "Descending_Dark_Upgradable",
+    "UIDef": {
+      "$type": "ItemChanger.UIDefs.BigUIDef, ItemChanger",
+      "bigSprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "Prompts.Quake2"
+      },
+      "take": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_ITEM_INTRO3",
+        "sheet": "Prompts"
+      },
+      "press": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "BUTTON_DESC_TAP",
+        "sheet": "Prompts"
+      },
+      "heroAction": "QUICK_CAST",
+      "descOne": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_QUAKE2_1",
+        "sheet": "Prompts"
+      },
+      "descTwo": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_QUAKE2_2",
+        "sheet": "Prompts"
+      },
+      "name": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "INV_NAME_SPELL_QUAKE2",
+        "sheet": "UI"
+      },
+      "shopDesc": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "INV_DESC_SPELL_QUAKE2",
+        "sheet": "UI"
+      },
+      "sprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "ShopIcons.Quake2"
+      }
+    },
+    "tags": [
+      {
+        "$type": "ItemChanger.Tags.ItemChainTag, ItemChanger",
+        "predecessor": "Desolate_Dive_Upgradable",
+        "successor": "Sidling_Dark"
+      }
+    ],
+    "obtainState": "Unobtained"
+  },
   "Howling_Wraiths": {
     "$type": "ItemChanger.Items.SpellItem, ItemChanger",
     "fieldName": "screamLevel",
@@ -5916,6 +6028,62 @@
       {
         "$type": "ItemChanger.Tags.ItemChainTag, ItemChanger",
         "predecessor": "Crystal_Heart_Upgradable",
+        "successor": null
+      }
+    ],
+    "obtainState": "Unobtained"
+  },
+  "Sidling_Dark": {
+    "$type": "ItemChanger.Items.CustomSkillItem, ItemChanger",
+    "boolName": "hasSidlingDark",
+    "moduleName": "ItemChanger.Modules.HorizontalDive, ItemChanger",
+    "name": "Sidling_Dark",
+    "UIDef": {
+      "$type": "ItemChanger.UIDefs.BigUIDef, ItemChanger",
+      "bigSprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "Prompts.HorizontalQuake"
+      },
+      "take": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "GET_ITEM_INTRO3",
+        "sheet": "Prompts"
+      },
+      "press": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "BUTTON_DESC_TAP",
+        "sheet": "Prompts"
+      },
+      "heroAction": "QUICK_CAST",
+      "descOne": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_DESC_HORIZONTALQUAKE_1",
+        "sheet": "Prompts"
+      },
+      "descTwo": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_DESC_HORIZONTALQUAKE_2",
+        "sheet": "Prompts"
+      },
+      "name": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_NAME_HORIZONTALQUAKE",
+        "sheet": "UI"
+      },
+      "shopDesc": {
+        "$type": "ItemChanger.LanguageString, ItemChanger",
+        "key": "ITEMCHANGER_SHOP_DESC_HORIZONTALQUAKE",
+        "sheet": "UI"
+      },
+      "sprite": {
+        "$type": "ItemChanger.ItemChangerSprite, ItemChanger",
+        "key": "ShopIcons.HorizontalQuake"
+      }
+    },
+    "tags": [
+      {
+        "$type": "ItemChanger.Tags.ItemChainTag, ItemChanger",
+        "predecessor": "Descending_Dark_Upgradable",
         "successor": null
       }
     ],

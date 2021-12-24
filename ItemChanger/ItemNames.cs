@@ -33,6 +33,9 @@ namespace ItemChanger
         public const string Shade_Soul = "Shade_Soul";
         public const string Desolate_Dive = "Desolate_Dive";
         public const string Descending_Dark = "Descending_Dark";
+        public const string Desolate_Dive_Upgradable = "Desolate_Dive_Upgradable";
+        public const string Descending_Dark_Upgradable = "Descending_Dark_Upgradable";
+        public const string Sidling_Dark = "Sidling_Dark";
         public const string Howling_Wraiths = "Howling_Wraiths";
         public const string Abyss_Shriek = "Abyss_Shriek";
         public const string Cyclone_Slash = "Cyclone_Slash";
