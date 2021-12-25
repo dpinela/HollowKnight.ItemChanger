@@ -111,5 +111,10 @@
   <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_HORIZONTALQUAKE">Enables the bearer to launch sideways or downwards with extreme speed and invincibility.</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_HORIZONTALQUAKE_1">Press LEFT or RIGHT while casting to go sideways.</entry>
   <entry sheet="Prompts" key="ITEMCHANGER_DESC_HORIZONTALQUAKE_2"></entry>
+  <!--Double Dash-->
+  <entry sheet="UI" key="ITEMCHANGER_NAME_DOUBLEDASH">Doublewing Cloak</entry>
+  <entry sheet="UI" key="ITEMCHANGER_SHOP_DESC_DOUBLEDASH">Allows the bearer to dash twice in the air.</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_DOUBLEDASH_1">After dashing in the air</entry>
+  <entry sheet="Prompts" key="ITEMCHANGER_DESC_DOUBLEDASH_2">Press DASH again to, um, dash again.</entry>
 
 </Language>

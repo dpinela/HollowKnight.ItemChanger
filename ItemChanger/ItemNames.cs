@@ -18,13 +18,17 @@ namespace ItemChanger
         public const string World_Sense = "World_Sense";
         public const string Dreamer = "Dreamer";
         public const string Mothwing_Cloak = "Mothwing_Cloak";
+        public const string Mothwing_Cloak_Upgradable = "Mothwing_Cloak_Upgradable";
         public const string Mantis_Claw = "Mantis_Claw";
         public const string Crystal_Heart = "Crystal_Heart";
         public const string Crystal_Heart_Upgradable = "Crystal_Heart_Upgradable";
+        public const string Vertical_Crystal_Heart = "Vertical_Crystal_Heart";
         public const string Monarch_Wings = "Monarch_Wings";
         public const string Monarch_Wings_Upgradable = "Monarch_Wings_Upgradable";
         public const string Super_Wings = "Super_Wings";
         public const string Shade_Cloak = "Shade_Cloak";
+        public const string Shade_Cloak_Upgradable = "Shade_Cloak_Upgradable";
+        public const string Doublewing_Cloak = "Doublewing_Cloak";
         public const string Ismas_Tear = "Isma's_Tear";
         public const string Dream_Nail = "Dream_Nail";
         public const string Dream_Gate = "Dream_Gate";
